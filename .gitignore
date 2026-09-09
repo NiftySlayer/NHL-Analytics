@@ -1,0 +1,22 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+*.user
+
+# SSIS build output
+*.ispac
+
+# Local database/project files
+*.database
+
+# Temporary files
+*.tmp
+*.bak
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# External reference data
+data/reference/worldcities.xlsx

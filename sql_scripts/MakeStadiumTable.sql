@@ -1,0 +1,17 @@
+USE NHL_Database;
+
+DROP TABLE IF EXISTS Stadium
+
+CREATE TABLE Stadium (
+    StadiumID INT PRIMARY KEY NOT NULL,
+    Active BIT NOT NULL,
+    Name NVARCHAR(50) NOT NULL,
+    Address NVARCHAR(50) NULL,
+    City NVARCHAR(50) NULL,
+    State NVARCHAR(10) NULL,
+    Zip NVARCHAR(10) NULL,
+    Country NVARCHAR(10) NULL,
+    Capacity INT NULL,
+    GeoLat DECIMAL(10, 7) NULL,
+    GeoLong DECIMAL(10, 7) NULL
+);
