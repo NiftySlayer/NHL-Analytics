@@ -1,4 +1,4 @@
-USE NHL_Database
+USE NHL_Database_2026
 
 DROP TABLE IF EXISTS Players
 
@@ -26,14 +26,3 @@ CREATE TABLE dbo.Players (
     DraftKingsName NVARCHAR(50)
 );
 
-/*
-This stuff was from 1st attempt. Code above is correc. no need to alter anything.
-Leaving it here to remind me of the api struggle I had to ge everything to match.
-
-ALTER TABLE Players 
-ALTER TABLE Players ALTER COLUMN Team NVARCHAR(10);
-ALTER TABLE Players ALTER COLUMN Catches NVARCHAR(1);
-ALTER TABLE Players ALTER COLUMN Shoots NVARCHAR(1);
-ALTER TABLE Players ALTER COLUMN FirstName NVARCHAR(50);
-ALTER TABLE Players ALTER COLUMN LastName NVARCHAR(50);
-*/

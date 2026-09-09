@@ -1,4 +1,4 @@
-USE NHL_Database;
+USE NHL_Database_2026;
 
 DROP TABLE IF EXISTS Stadium
 
