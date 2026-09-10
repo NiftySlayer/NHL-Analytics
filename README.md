@@ -1,4 +1,4 @@
-# NHL Analytics
+# NHL Season Summary
 
 An end-to-end NHL analytics project using SQL Server Integration Services (SSIS), C#, SQL Server, Power Query, DAX, and Power BI.
 
