@@ -11,8 +11,8 @@
   DTS:LocaleID="4105"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="90"
-  DTS:VersionGUID="{ACBFC0E5-2393-4BE4-B404-A42B7FFF37B2}">
+  DTS:VersionBuild="97"
+  DTS:VersionGUID="{D05AB183-1B1E-430E-BE06-B92CE4B4D28B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -5258,7 +5258,7 @@ namespace SC_3837614eb97c4fb697831ae7095b8e52.Properties {
     <msb:CodeName>SC_3837614eb97c4fb697831ae7095b8e52</msb:CodeName>
     <msb:Language>msBuild</msb:Language>
     <msb:DisplayName>SC_3837614eb97c4fb697831ae7095b8e52</msb:DisplayName>
-    <msb:ProjectId>{5310A560-4F5D-43BB-AF31-761036DE1889}</msb:ProjectId>
+    <msb:ProjectId>{A69A6B20-EF29-40AF-B3DB-FD36E2F1533C}</msb:ProjectId>
   </msb:PropertyGroup>
   <msb:ItemGroup>
     <msb:Project Include="SC_3837614eb97c4fb697831ae7095b8e52.csproj" />
@@ -5405,7 +5405,7 @@ namespace SC_3837614eb97c4fb697831ae7095b8e52.Properties {
                     <arrayElement
                       dataType="System.String"><![CDATA[TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDAL4MoWoAAAAAAAAAAOAAIiALATAAADQAAAAIAAAAAAAAjlMA
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDANz3omoAAAAAAAAAAOAAIiALATAAADQAAAAIAAAAAAAAjlMA
 AAAgAAAAYAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACgAAAAAgAAAAAAAAMAYIUAABAA
 ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAADxTAABPAAAAAGAAAFAEAAAAAAAAAAAAAAAAAAAA
 AAAAAIAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -5626,7 +5626,7 @@ cwBpAGcAbgAgAGEAIAB2AGEAbAB1AGUAIAB0AG8AIAB0AGgAZQAgAGMAbwBsAHUAbQBuACAAaQBu
 AHMAdABlAGEAZAAuAAARTwB1AHQAcAB1AHQAIAAwAAAhUwBwAG8AcgB0AHMARABhAHQAYQBBAHAA
 aQBLAGUAeQAAcVMAQwBfADMAOAAzADcANgAxADQAZQBiADkANwBjADQAZgBiADYAOQA3ADgAMwAx
 AGEAZQA3ADAAOQA1AGIAOABlADUAMgAuAFAAcgBvAHAAZQByAHQAaQBlAHMALgBSAGUAcwBvAHUA
-cgBjAGUAcwAAeKeo8mQUHECUY5f4G6yHbwAEIAEBCAMgAAEFIAEBEREEIAEBDgUgAQERdRwHCQ4O
+cgBjAGUAcwAAudipkc0kLkyPFdZiMuJfmAAEIAEBCAMgAAEFIAEBEREEIAEBDgUgAQERdRwHCQ4O
 EjkVEUEBEiQSJBURRQEIFRFFARFJEk0CBgABARGAhQUAAg4ODgkgARUSgI0BDg4GFRKAjQEOBCAA
 EwAGEAEBHgAOCAoBFRI9ARIkBhUSPQESJAggABURQQETAAYVEUEBEiQDIAAIBQACCAgIBSACDggI
 BRURRQEIAyAAAgQAAQIOBhURRQERSQUgABKAnQMgAA4KIAYBCA4ODggQAgkgAwESXR0IEmEFIAIB
@@ -14047,6 +14047,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
           Id="Package\Data Flow Task - Get Players"
           TopLeft="50.7142858222427,33.6470587940365" />
         <NodeLayout
+          Size="266.4,41.6"
+          Id="Package\Data Flow Task - Get PlayerSeasonStats"
+          TopLeft="365.000000776989,186.588235130566" />
+        <NodeLayout
           Size="248,41.6"
           Id="Package\Data Flow Task - Get Stadium"
           TopLeft="365.555556333727,109.777777681553" />
@@ -14058,10 +14062,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
           Size="212,41.6"
           Id="Package\Data Flow Task - Get Teams"
           TopLeft="52.1428572538552,110.882352843984" />
-        <NodeLayout
-          Size="266.4,41.6"
-          Id="Package\Data Flow Task - Get PlayerSeasonStats"
-          TopLeft="365.000000776989,186.588235130566" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="158.028571538049,75.2470587940365">
@@ -14203,7 +14203,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
     design-time-name="Package\Data Flow Task - Get PlayerGameStats">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="162.4,41.6"
           Id="Package\Data Flow Task - Get PlayerGameStats\Script Component"
@@ -14231,7 +14231,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -14260,47 +14262,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
           Id="Package\Data Flow Task - Get Players\OLE DB Destination"
           TopLeft="242.857143374122,168.999999851865" />
         <NodeLayout
-          Size="162.4,41.6"
-          Id="Package\Data Flow Task - Get Players\Script Component"
-          TopLeft="172.142857509304,74.1764705232168" />
-        <EdgeLayout
-          Id="Package\Data Flow Task - Get Players.Paths[Output 0]"
-          TopLeft="253.342857509304,115.776470523217">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="74.714285864818,53.2235293286482"
-              Start="0,0"
-              End="74.714285864818,45.7235293286482">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,22.6117646643241" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,22.6117646643241"
-                    Point2="0,26.6117646643241"
-                    Point3="4,26.6117646643241" />
-                  <mssgle:LineSegment
-                    End="70.714285864818,26.6117646643241" />
-                  <mssgle:CubicBezierSegment
-                    Point1="70.714285864818,26.6117646643241"
-                    Point2="74.714285864818,26.6117646643241"
-                    Point3="74.714285864818,30.6117646643241" />
-                  <mssgle:LineSegment
-                    End="74.714285864818,45.7235293286482" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
           Size="171.2,41.6"
           Id="Package\Data Flow Task - Get Players\Flat File Destination"
           TopLeft="485.000001032438,150.647058691481" />
+        <NodeLayout
+          Size="162.4,41.6"
+          Id="Package\Data Flow Task - Get Players\Script Component"
+          TopLeft="172.142857509304,74.1764705232168" />
         <EdgeLayout
           Id="Package\Data Flow Task - Get Players.Paths[OLE DB Destination Error Output]"
           TopLeft="413.257143374122,189.799999851865">
@@ -14337,11 +14305,98 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task - Get Players.Paths[Output 0]"
+          TopLeft="253.342857509304,115.776470523217">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="74.714285864818,53.2235293286482"
+              Start="0,0"
+              End="74.714285864818,45.7235293286482">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.6117646643241" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,22.6117646643241"
+                    Point2="0,26.6117646643241"
+                    Point3="4,26.6117646643241" />
+                  <mssgle:LineSegment
+                    End="70.714285864818,26.6117646643241" />
+                  <mssgle:CubicBezierSegment
+                    Point1="70.714285864818,26.6117646643241"
+                    Point2="74.714285864818,26.6117646643241"
+                    Point3="74.714285864818,30.6117646643241" />
+                  <mssgle:LineSegment
+                    End="74.714285864818,45.7235293286482" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\Data Flow Task - Get Players\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Data Flow Task - Get PlayerSeasonStats">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="162.4,41.6"
+          Id="Package\Data Flow Task - Get PlayerSeasonStats\Script Component"
+          TopLeft="292.99999563396,92.999998614192" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\Data Flow Task - Get PlayerSeasonStats\OLE DB Destination"
+          TopLeft="296.999995574355,181.199997675419" />
+        <EdgeLayout
+          Id="Package\Data Flow Task - Get PlayerSeasonStats.Paths[Output 0]"
+          TopLeft="378.199995604157,134.599998614192">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,46.599999061227"
+              Start="0,0"
+              End="0,39.099999061227">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,39.099999061227" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task - Get PlayerSeasonStats\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -14389,7 +14444,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14436,7 +14493,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
     design-time-name="Package\Data Flow Task - Get Standings">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="162.4,41.6"
           Id="Package\Data Flow Task - Get Standings\Script Component"
@@ -14464,7 +14521,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -14519,7 +14578,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14563,57 +14624,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
   </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\Data Flow Task - Get Teams\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Data Flow Task - Get PlayerSeasonStats">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="162.4,41.6"
-          Id="Package\Data Flow Task - Get PlayerSeasonStats\Script Component"
-          TopLeft="292.99999563396,92.999998614192" />
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\Data Flow Task - Get PlayerSeasonStats\OLE DB Destination"
-          TopLeft="296.999995574355,181.199997675419" />
-        <EdgeLayout
-          Id="Package\Data Flow Task - Get PlayerSeasonStats.Paths[Output 0]"
-          TopLeft="378.199995604157,134.599998614192">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,46.599999061227"
-              Start="0,0"
-              End="0,39.099999061227">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,39.099999061227" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task - Get PlayerSeasonStats\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
