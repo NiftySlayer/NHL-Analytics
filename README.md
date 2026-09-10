@@ -70,7 +70,35 @@ The Power BI report contains:
 - Division Standings
 - League Stats
 
-The report includes team and player analysis, league leaders, standings, geographic analysis, roster information, arena information, and player demographic statistics.
+The report includes team and player analysis, league leaders, standings, roster information, arena information, and player demographic statistics.
+
+
+## Screenshots
+
+### Team Overview
+
+![Team Overview](images/team-overview.png)
+
+### Team Stats
+
+![Team Stats](images/team-stats.png)
+
+### League Stats
+
+![League Stats](images/league-stats.png)
+
+### League Standings
+
+![League Standings](images/standings.png)
+
+### SSIS Data Pipeline
+
+The SSIS package orchestrates six sequential data flows that retrieve NHL data, transform the API responses, and load the results into SQL Server.
+
+![SSIS Control Flow](images/ssis-control-flow.png)
+
+
+
 
 ## Reference Data
 
