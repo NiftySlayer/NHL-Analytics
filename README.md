@@ -4,6 +4,16 @@ An end-to-end NHL analytics project using SQL Server Integration Services (SSIS)
 
 The project extracts NHL data from the SportsData.io API, parses JSON responses in SSIS Script Components, loads the data into SQL Server, and presents the results through an interactive Power BI report.
 
+
+## Live Power BI Report
+
+Explore the interactive NHL Season Summary report in Power BI:
+
+[View the Live Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiYjY0ODBiNjktYTgwYS00NzE3LWJkMDEtMGRlMjM4NTRlNmEzIiwidCI6IjlkZjE5Yjk5LTY1NjItNDA4NC04OTlmLWY3NzcxZWNmNDMzNyJ9&pageName=20bc6d44301f5f7002fc)
+
+> The published report is provided for portfolio demonstration purposes. Data availability and refreshes depend on the underlying SportsData.io API.
+
+
 ## Project Architecture
 
 SportsData.io API  
